@@ -543,6 +543,13 @@
                     <scope>provided</scope>
                 </dependency>
 
+                <dependency>
+                    <groupId>org.apache.seatunnel</groupId>
+                    <artifactId>connector-easysearch</artifactId>
+                    <version>${project.version}</version>
+                    <scope>provided</scope>
+                </dependency>
+
                 <!-- jdbc driver -->
                 <dependency>
                     <groupId>com.aliyun.phoenix</groupId>
@@ -730,7 +737,7 @@
                 <dependency>
                     <groupId>com.amazonaws</groupId>
                     <artifactId>aws-java-sdk-bundle</artifactId>
-                    <version>1.11.271</version>
+                    <version>${aws-java-sdk.version}</version>
                     <scope>provided</scope>
                 </dependency>
                 <!-- seatunnel connectors for demo -->
